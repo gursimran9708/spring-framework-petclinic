@@ -1,2 +1,2 @@
-FROM tomcat:11.0.0-M11-jdk21-openjdk-bookworm
+FROM tomcat:8.5.93-jdk8-corretto-al2
 COPY target/petclinic.war /usr/local/tomcat/webapps/
